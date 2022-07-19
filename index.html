@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+  </head>
+
+  <body>
+    <h1>CRUD</h1>
+    <div>
+      <form class="form">
+        
+        <div class="box">
+          <label for="name">Nome:</label>
+          <input type="text" id="name"/>
+        </div>
+        
+        <div class="box">
+          <label for="email">Email:</label>
+          <input type="email" id="email"/>        
+        </div>
+        
+        <button type="button"><a id="btn-salvar" class="button" onclick="salvar()">Salvar</a></button>
+        
+        <button type="button"><a id="btn-deletar" class="button" onclick="deletar()">Deletar</a></button>
+        
+      </form>
+      
+      <p id="info"></p>
+      <p id="p"></p>
+
+    </div>
+    <script src="script.js"></script>
+  </body>  
+</html>
